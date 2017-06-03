@@ -26,6 +26,8 @@
 ;;C-c C-p 打开，这个好用
 (setq w3m-view-this-url-new-session-in-background t)
 
+(setq w3m-bookmark-file-coding-system 'chinese-iso-8bit)
+
 
 (add-hook 'w3m-fontify-after-hook 'remove-w3m-output-garbages)
 (defun remove-w3m-output-garbages ()

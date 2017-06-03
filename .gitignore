@@ -57,3 +57,4 @@ site-lisp/package/
 /.historian
 /.uptimes.el
 /rake.cache
+/eww-bookmarks
